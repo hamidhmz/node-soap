@@ -6,7 +6,6 @@
 
   <message name="getBMIRequest">
     <part name="weight" type="xsd:float"/>
-    <part name="height" type="xsd:float"/>
   </message>
 
   <message name="getBMIResponse">

@@ -14,6 +14,18 @@ const service = {
         const year = new Date().getFullYear();
         // const n = args.weight / (args.height * args.height);
         // console.log(n);
+        for (const key in args) {
+          if (args.hasOwnProperty(key)) {
+            const element = args[key];
+            for (const key2 in element) {
+              if (element.hasOwnProperty(key2)) {
+                const element2 = element[key2];
+                console.log('element2 :', element2);
+              }
+            }
+            console.log("key:  "+key);
+          }
+        }
         return { bmi1: args };
       }
     }
