@@ -1,0 +1,24 @@
+{
+  "name": "node-soap",
+  "version": "1.0.0",
+  "description": "this is an exercise file for nodeJs and soap consuming",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamidhmz/node-soap.git"
+  },
+  "author": "hamidreza nasrollahi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamidhmz/node-soap/issues"
+  },
+  "homepage": "https://github.com/hamidhmz/node-soap#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "soap": "^0.28.0"
+  }
+}
